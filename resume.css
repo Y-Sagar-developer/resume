@@ -1,0 +1,125 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+body {
+    background: #1b62ce;
+}
+
+.container {
+    display: flex;
+    max-width: 1000px;
+    margin: 40px auto;
+    background: white;
+    /* box-shadow:0 0 10px rgba(0,0,0,0.2); */
+
+}
+
+.sidepage {
+    width: 35%;
+    /* width: 300px; */
+    background: #1e293b;
+    color: white;
+    padding: 30px;
+    text-align: center;
+
+
+}
+
+.sagar {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 5px solid white;
+    margin-bottom: 15px;
+}
+
+.role {
+    margin-bottom: 20px;
+    color: #cbd5e1;
+}
+
+.contact {
+    text-align: left;
+    margin-top: 20px;
+}
+
+.contact p {
+    margin: 8px 0;
+    font-size: 14px;
+}
+
+.skills {
+    margin-top: 25px;
+    text-align: left;
+}
+
+.bar {
+    width: 100%;
+    height: 8px;
+    background: #334155;
+    margin: 5px 0 15px;
+    border-radius: 5px;
+
+
+}
+
+.bar div {
+    height: 100%;
+    border-radius: 5px;
+
+}
+
+.html {
+    width: 95%;
+    background: #38bdf8;
+}
+
+.css {
+    width: 90%;
+    background: #38bdf8;
+}
+
+.js {
+    width: 85%;
+    background: #38bdf8;
+}
+
+.node {
+    width: 80%;
+    background: #38bdf8;
+}
+
+.react {
+    width: 75%;
+    background: #38bdf8;
+}
+
+.mainpage{
+width:65%;
+padding:40px;
+}
+
+.mainpage h1{
+    margin-bottom: 10px;
+    color:#1e293b;
+    border-bottom: 2px solid black;
+    padding-bottom: 5px;
+    display: inline-block;
+
+}
+
+.mainpage h3{
+margin-top:15px;
+}
+
+.mainpage p{
+margin-top:5px;
+line-height:1.6;
+color:#444;
+}
